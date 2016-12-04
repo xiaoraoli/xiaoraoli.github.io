@@ -1107,7 +1107,13 @@
 		height: 100%;
 	}
     .my_weixin {
-    	float: left;
-   		display: inline;
-   		text-align: center;
+   		position: relative;
+   		top: 50%;
+   		left: 30%;
+    }
+    .text_weixin {
+    	display: inline;
+    	position: relative;
+    	text-align: -webkit-auto;
+    	top: 20px;
     }
